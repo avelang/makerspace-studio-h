@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import StudioLogo from "@/components/StudioLogo";
+import studioLogoImg from "@/assets/studio-logo.png";
 
 const floatingIcons = [
   { icon: Bot, x: "10%", y: "20%", delay: 0 },
@@ -43,7 +44,11 @@ const Index = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <StudioLogo className="text-6xl md:text-8xl lg:text-9xl" />
+            <img
+              src={studioLogoImg}
+              alt="stUdio.h — AI & Robotics Makerspace"
+              className="mx-auto w-72 md:w-[28rem] lg:w-[36rem] drop-shadow-lg"
+            />
           </motion.div>
 
           <motion.p

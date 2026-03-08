@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import StudioLogo from "./StudioLogo";
+import studioLogoImg from "@/assets/studio-logo.png";
 
 const Footer = () => (
   <footer className="border-t border-border bg-card">
     <div className="container mx-auto px-4 py-12">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
         <div className="space-y-3">
-          <StudioLogo className="text-lg" />
+          <img src={studioLogoImg} alt="stUdio.h" className="h-12" />
           <p className="text-sm text-muted-foreground font-mono">
             #include &lt;makers&gt;
           </p>
