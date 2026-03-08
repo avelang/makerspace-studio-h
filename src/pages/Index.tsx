@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import StudioLogo from "@/components/StudioLogo";
+import studioLogoImg from "@/assets/studio-logo.png";
 
 const floatingIcons = [
   { icon: Bot, x: "10%", y: "20%", delay: 0 },
