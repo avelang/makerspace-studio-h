@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import StudioLogo from "./StudioLogo";
+import studioLogoImg from "@/assets/studio-logo.png";
 
 const navItems = [
   { path: "/", label: "Home" },
