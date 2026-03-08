@@ -44,7 +44,11 @@ const Index = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <StudioLogo className="text-6xl md:text-8xl lg:text-9xl" />
+            <img
+              src={studioLogoImg}
+              alt="stUdio.h — AI & Robotics Makerspace"
+              className="mx-auto w-72 md:w-[28rem] lg:w-[36rem] drop-shadow-lg"
+            />
           </motion.div>
 
           <motion.p
