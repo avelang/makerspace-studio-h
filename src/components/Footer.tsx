@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import StudioLogo from "./StudioLogo";
+import studioLogoImg from "@/assets/studio-logo.png";
 
 const Footer = () => (
   <footer className="border-t border-border bg-card">
